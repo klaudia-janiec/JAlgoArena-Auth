@@ -1,4 +1,4 @@
-# JAlgoArena Auth [![Build Status](https://travis-ci.org/spolnik/JAlgoArena-Auth.svg?branch=master)](https://travis-ci.org/spolnik/JAlgoArena-Auth) [![codecov](https://codecov.io/gh/spolnik/JAlgoArena-Auth/branch/master/graph/badge.svg)](https://codecov.io/gh/spolnik/JAlgoArena-Auth) [![GitHub release](https://img.shields.io/github/release/spolnik/jalgoarena-auth.svg)]()
+# JAlgoArena Auth [![Build Status](https://travis-ci.org/klaudia-janiec/JAlgoArena-Auth.svg?branch=master)](https://travis-ci.org/klaudia-janiec/JAlgoArena-Auth) [![codecov](https://codecov.io/gh/spolnik/JAlgoArena-Auth/branch/master/graph/badge.svg)](https://codecov.io/gh/spolnik/JAlgoArena-Auth) [![GitHub release](https://img.shields.io/github/release/spolnik/jalgoarena-auth.svg)]()
 
 JAlgoArena Auth is core service dedicated for authentication and authorization of the JAlgoArena users. It's keeping all data in Xodus DB, and for authorization it's using JWT tokens which are verified on the requests. Initial creation of accounts happens through AJAX requests.
 
@@ -19,11 +19,11 @@ JAlgoArena Auth is core service dedicated for authentication and authorization o
 
 ## Components
 
-- [JAlgoArena](https://github.com/spolnik/JAlgoArena)
-- [JAlgoArena UI](https://github.com/spolnik/JAlgoArena-UI)
-- [JAlgoArena Submissions (and Ranking)](https://github.com/spolnik/JAlgoArena-Submissions)
-- [JAlgoArena Eureka Server](https://github.com/spolnik/JAlgoArena-Eureka)
-- [JAlgoArena API Gateway](https://github.com/spolnik/JAlgoArena-API)
+- [JAlgoArena](https://github.com/klaudia-janiec/JAlgoArena)
+- [JAlgoArena UI](https://github.com/klaudia-janiec/JAlgoArena-UI)
+- [JAlgoArena Submissions (and Ranking)](https://github.com/klaudia-janiec/JAlgoArena-Submissions)
+- [JAlgoArena Eureka Server](https://github.com/klaudia-janiec/JAlgoArena-Eureka)
+- [JAlgoArena API Gateway](https://github.com/klaudia-janiec/JAlgoArena-API)
 
 ## Continuous Delivery
 
@@ -38,7 +38,7 @@ JAlgoArena Auth is core service dedicated for authentication and authorization o
 - Heroku (PaaS)
 - Xodus (embedded highly scalable database) - http://jetbrains.github.io/xodus/
 - Spring Boot, Spring Cloud (Eureka Client)
-- TravisCI - https://travis-ci.org/spolnik/JAlgoArena-Auth
+- TravisCI - https://travis-ci.org/klaudia-janiec/JAlgoArena-Auth
 
 ## Running locally
 
@@ -56,6 +56,6 @@ There are two ways to run it - from sources or from binaries.
 - there is second way to run app with gradle. Instead of running above, you can just run `./gradlew clean bootRun`
 
 ## Notes
-- [Travis Builds](https://travis-ci.org/spolnik)
+- [Travis Builds](https://travis-ci.org/klaudia-janiec)
 
 ![Component Diagram](https://github.com/spolnik/JAlgoArena/raw/master/design/JAlgoArena_Logo.png)
